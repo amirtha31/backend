@@ -246,7 +246,9 @@ console.log(results);
   });
 
 
-  
+app.get("/",(req,res)=>{
+  res.send("Backend by amirtha");
+})  
   
 
 app.listen(3001)
